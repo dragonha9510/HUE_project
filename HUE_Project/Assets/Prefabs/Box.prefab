@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"iMyColor","value":{"$content":7,"$type":"System.Int32"},"$version":"A"},{"name":"bLateInit","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"iMyColor","value":{"$content":7,"$type":"System.Int32"},"$version":"A"},{"name":"bLateInit","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"fSpeed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &5320516754586447914
 MonoBehaviour:
