@@ -2917,7 +2917,7 @@ PrefabInstance:
     - target: {fileID: 5320516754586447915, guid: e352100ecad02e84abe8418a596958dc,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"iMyColor","value":{"$content":4,"$type":"System.Int32"},"$version":"A"},{"name":"bLateInit","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"iMyColor","value":{"$content":4,"$type":"System.Int32"},"$version":"A"},{"name":"bLateInit","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"fSpeed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5320516754586447919, guid: e352100ecad02e84abe8418a596958dc,
         type: 3}
