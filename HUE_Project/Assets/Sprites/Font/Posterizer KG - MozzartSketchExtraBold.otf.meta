@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 51a40f15156615c4785c5e8a8fed0a37
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mozzart Sketch
+  fontNames:
+  - Mozzart Sketch
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c0da8a71156f8a543a7eb33a72140459, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
