@@ -12,6 +12,8 @@ TagManager:
   - Obstacle
   - Canvas
   - Ladder
+  - Item
+  - BackGroundCamera
   layers:
   - Default
   - TransparentFX
