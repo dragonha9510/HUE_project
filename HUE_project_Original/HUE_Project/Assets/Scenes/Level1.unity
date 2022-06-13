@@ -421,6 +421,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6433791319287633753, guid: aa2692577fde55e479f1569a68b5a39e,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6433791319287633753, guid: aa2692577fde55e479f1569a68b5a39e,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.3021383
       objectReference: {fileID: 0}
@@ -11807,7 +11812,7 @@ PrefabInstance:
     - target: {fileID: 1226577666183642604, guid: d5489f903e4bcbe499f5cfb7423efbe8,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1262219639144054091, guid: d5489f903e4bcbe499f5cfb7423efbe8,
         type: 3}
@@ -13146,38 +13151,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 840676532, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"colMyColor","value":{"r":0.0,"g":0.0,"b":1.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1104880399, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"colMyColor","value":{"r":0.0,"g":1.0,"b":1.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1319162542, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"colMyColor","value":{"r":0.0,"g":1.0,"b":0.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1436801387, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"colMyColor","value":{"r":0.5019608,"g":0.0,"b":1.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1502844205, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"colMyColor","value":{"r":1.0,"g":1.0,"b":0.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1864712999, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"colMyColor","value":{"r":1.0,"g":0.0,"b":1.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2035182961, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"colMyColor","value":{"r":1.0,"g":0.0,"b":0.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2113751201, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"colMyColor","value":{"r":1.0,"g":0.5019608,"b":0.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 1784235645598328, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
       propertyPath: m_Name
       value: Player
@@ -13225,12 +13198,6 @@ PrefabInstance:
     - target: {fileID: 4173568434705544, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3314992081420294118, guid: 9fab65f3a396eaf4fb2c796172ea03ca,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":15.0,"$type":"System.Single"},"$version":"A"},{"name":"HasKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"HasProjectile","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"iCurColor","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"iNextColor","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"bIsReachingBox","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"bIsShiftDown","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"bIsOnLadder","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"bIsReachingLadder","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"bHasColor","value":{"$content":[false,false,false,false,false,false,false,false],"$type":"System.Collections.Generic.List`1[[System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"iBeforeColor","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
