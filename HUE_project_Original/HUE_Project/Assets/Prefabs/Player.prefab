@@ -323,7 +323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"colMyColor","value":{"r":1.0,"g":1.0,"b":0.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &1924731207
 MonoBehaviour:
@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"colMyColor","value":{"r":1.0,"g":0.5019608,"b":0.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &1864712998
 MonoBehaviour:
@@ -401,7 +401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"colMyColor","value":{"r":1.0,"g":0.0,"b":1.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &1436801386
 MonoBehaviour:
@@ -432,7 +432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"colMyColor","value":{"r":0.5019608,"g":0.0,"b":1.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &840676531
 MonoBehaviour:
@@ -463,7 +463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"colMyColor","value":{"r":0.0,"g":0.0,"b":1.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &2035182960
 MonoBehaviour:
@@ -494,7 +494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"colMyColor","value":{"r":1.0,"g":0.0,"b":0.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &1104880398
 MonoBehaviour:
@@ -525,7 +525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"colMyColor","value":{"r":0.0,"g":1.0,"b":1.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &1319162541
 MonoBehaviour:
@@ -556,7 +556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"bIsChoose","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"vecOriScale","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"colMyColor","value":{"r":0.0,"g":1.0,"b":0.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1001 &2799684994573900579
 PrefabInstance:
@@ -748,7 +748,7 @@ PrefabInstance:
     - target: {fileID: 4561908719764767281, guid: d1c98be2bb5d5d442a2172461cc39ad1,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"bIsOn","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"fSclae","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"fScaleSpeed","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"},{"name":"iCurColor","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"bIsOn","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"fScale","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"fScaleSpeed","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"},{"name":"iCurColor","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5998160562833604895, guid: d1c98be2bb5d5d442a2172461cc39ad1,
         type: 3}
