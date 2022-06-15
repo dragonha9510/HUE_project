@@ -7902,10 +7902,56 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1764912422, guid: d2f735e0abba48549b607fca8a0b461b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3caae53264001114b8a048b14c35e026,
+        type: 3}
+    - target: {fileID: 1764912422, guid: d2f735e0abba48549b607fca8a0b461b, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289095598460785316, guid: d2f735e0abba48549b607fca8a0b461b,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289095598460785316, guid: d2f735e0abba48549b607fca8a0b461b,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 458a027f29cc7244dae62e094d1ccd41,
+        type: 3}
+    - target: {fileID: 3289095598460785316, guid: d2f735e0abba48549b607fca8a0b461b,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3289095598970598051, guid: d2f735e0abba48549b607fca8a0b461b,
         type: 3}
       propertyPath: m_Name
       value: LaserCanon (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289095598970598052, guid: d2f735e0abba48549b607fca8a0b461b,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289095598970598052, guid: d2f735e0abba48549b607fca8a0b461b,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289095598970598052, guid: d2f735e0abba48549b607fca8a0b461b,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7354303c88b1f6040800f16abf5871aa,
+        type: 3}
+    - target: {fileID: 3289095598970598052, guid: d2f735e0abba48549b607fca8a0b461b,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3289095598970598053, guid: d2f735e0abba48549b607fca8a0b461b,
         type: 3}
@@ -12829,6 +12875,85 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1859918674}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1863296169
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 872581533964816646, guid: 7c265ed4518420f4ea0dd8f8c187a3a6,
+        type: 3}
+      propertyPath: m_Name
+      value: MainCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 872581533964816648, guid: 7c265ed4518420f4ea0dd8f8c187a3a6,
+        type: 3}
+      propertyPath: orthographic size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 872581533964816651, guid: 7c265ed4518420f4ea0dd8f8c187a3a6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 872581533964816651, guid: 7c265ed4518420f4ea0dd8f8c187a3a6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 872581533964816651, guid: 7c265ed4518420f4ea0dd8f8c187a3a6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 872581533964816651, guid: 7c265ed4518420f4ea0dd8f8c187a3a6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.725102
+      objectReference: {fileID: 0}
+    - target: {fileID: 872581533964816651, guid: 7c265ed4518420f4ea0dd8f8c187a3a6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 872581533964816651, guid: 7c265ed4518420f4ea0dd8f8c187a3a6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 872581533964816651, guid: 7c265ed4518420f4ea0dd8f8c187a3a6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 872581533964816651, guid: 7c265ed4518420f4ea0dd8f8c187a3a6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 872581533964816651, guid: 7c265ed4518420f4ea0dd8f8c187a3a6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 872581533964816651, guid: 7c265ed4518420f4ea0dd8f8c187a3a6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 872581533964816651, guid: 7c265ed4518420f4ea0dd8f8c187a3a6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 872581533964816653, guid: 7c265ed4518420f4ea0dd8f8c187a3a6,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"fMaxSize","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"fSpeed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"vecMyPosition","value":{"x":1.8,"y":2.0,"z":-2.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"vecDirection","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7c265ed4518420f4ea0dd8f8c187a3a6, type: 3}
 --- !u!1001 &1878419774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14269,7 +14394,7 @@ PrefabInstance:
     - target: {fileID: 1226577666183642604, guid: d5489f903e4bcbe499f5cfb7423efbe8,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1262219639144054091, guid: d5489f903e4bcbe499f5cfb7423efbe8,
         type: 3}
@@ -14771,10 +14896,61 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1764912422, guid: d2f735e0abba48549b607fca8a0b461b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3caae53264001114b8a048b14c35e026,
+        type: 3}
+    - target: {fileID: 1764912422, guid: d2f735e0abba48549b607fca8a0b461b, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289095598460785316, guid: d2f735e0abba48549b607fca8a0b461b,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289095598460785316, guid: d2f735e0abba48549b607fca8a0b461b,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289095598460785316, guid: d2f735e0abba48549b607fca8a0b461b,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 458a027f29cc7244dae62e094d1ccd41,
+        type: 3}
+    - target: {fileID: 3289095598460785316, guid: d2f735e0abba48549b607fca8a0b461b,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3289095598970598051, guid: d2f735e0abba48549b607fca8a0b461b,
         type: 3}
       propertyPath: m_Name
       value: LaserCanon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289095598970598052, guid: d2f735e0abba48549b607fca8a0b461b,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289095598970598052, guid: d2f735e0abba48549b607fca8a0b461b,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289095598970598052, guid: d2f735e0abba48549b607fca8a0b461b,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7354303c88b1f6040800f16abf5871aa,
+        type: 3}
+    - target: {fileID: 3289095598970598052, guid: d2f735e0abba48549b607fca8a0b461b,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3289095598970598053, guid: d2f735e0abba48549b607fca8a0b461b,
         type: 3}
