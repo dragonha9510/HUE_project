@@ -15,10 +15,9 @@ GameObject:
   - component: {fileID: 2414854652025579300}
   - component: {fileID: 5320516754586447915}
   - component: {fileID: 5320516754586447914}
-  - component: {fileID: 7912048648090466663}
   m_Layer: 14
   m_Name: Box
-  m_TagString: Obstacle
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -183,19 +182,3 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 8db6aa1862a92da4794e8e30e935ce92, type: 2}
---- !u!114 &7912048648090466663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5320516754586447913}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 5137cb07dee3d814180d385f6f1fb5d2, type: 2}

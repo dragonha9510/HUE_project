@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1905657967408969646}
   - component: {fileID: 1905657967408969633}
   - component: {fileID: 171999414}
+  - component: {fileID: -5122763060410823774}
   m_Layer: 15
   m_Name: BalloonBox
   m_TagString: Platform
@@ -166,7 +167,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 111ea76e40527d5459dc0b86a5472e36, type: 2}
+    - {fileID: 11400000, guid: 439b8096b4f11794694a87933faedec2, type: 2}
 --- !u!114 &171999414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,6 +184,24 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 5137cb07dee3d814180d385f6f1fb5d2, type: 2}
+--- !u!255 &-5122763060410823774
+FixedJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905657967408969635}
+  m_Enabled: 0
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: -13.616539, y: -2.9300003}
+  m_DampingRatio: 0
+  m_Frequency: 0
 --- !u!1 &7686734424045428329
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,8 +227,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7686734424045428329}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.03972517, y: -5.36, z: 0}
-  m_LocalScale: {x: 1, y: 3.5, z: 1}
+  m_LocalPosition: {x: 0.042045325, y: -6.7417727, z: 0}
+  m_LocalScale: {x: 1, y: 4.5, z: 1}
   m_Children: []
   m_Father: {fileID: 7686734425131068709}
   m_RootOrder: 0
@@ -274,9 +293,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7686734424273377862}
   - component: {fileID: 7686734424273377858}
-  - component: {fileID: 7686734424273377861}
   - component: {fileID: 7686734424273377860}
   - component: {fileID: 7686734424273377863}
+  - component: {fileID: 355660186}
   m_Layer: 15
   m_Name: Balloon2 (1)
   m_TagString: Untagged
@@ -292,8 +311,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7686734424273377913}
   m_LocalRotation: {x: 0, y: 0, z: 0.026176924, w: 0.99965733}
-  m_LocalPosition: {x: -1.73, y: 6.2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.22, y: 5.5529995, z: 0}
+  m_LocalScale: {x: 0.75, y: 0.7, z: 1}
   m_Children:
   - {fileID: 7686734424379364930}
   m_Father: {fileID: 1905657967408969637}
@@ -349,22 +368,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &7686734424273377861
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7686734424273377913}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 41dd0b24b2254ab4aa036389543b1bd7, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0048661255, y: 0.05562005}
-  serializedVersion: 2
-  m_Radius: 0.8630451
 --- !u!50 &7686734424273377860
 Rigidbody2D:
   serializedVersion: 4
@@ -385,7 +388,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 5
+  m_Constraints: 4
 --- !u!231 &7686734424273377863
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -401,11 +404,27 @@ SpringJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: -0.000000086044416, y: -0.96500003}
-  m_ConnectedAnchor: {x: -1.73, y: 6.2}
+  m_ConnectedAnchor: {x: -1.255353, y: 6.227574}
   m_AutoConfigureDistance: 1
-  m_Distance: 0.96499985
+  m_Distance: 1.3510001
   m_DampingRatio: 0
   m_Frequency: 1.5
+--- !u!70 &355660186
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7686734424273377913}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.40889192, y: 0.108886614}
+  m_Size: {x: 0.7303449, y: 1.5767471}
+  m_Direction: 0
 --- !u!1 &7686734424349488697
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,13 +449,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7686734424349488697}
-  m_LocalRotation: {x: 0, y: 0, z: -0.16504757, w: 0.9862857}
-  m_LocalPosition: {x: -1.4, y: -5.17, z: 0}
-  m_LocalScale: {x: 1, y: 4, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.11753747, w: 0.99306846}
+  m_LocalPosition: {x: -1.33, y: -6.55, z: 0}
+  m_LocalScale: {x: 1, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 7686734425868322815}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -19}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -13.5}
 --- !u!212 &7686734424349488647
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -511,13 +530,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7686734424379364933}
-  m_LocalRotation: {x: 0, y: 0, z: 0.16504757, w: 0.9862857}
-  m_LocalPosition: {x: 1.51, y: -5.19, z: 0}
-  m_LocalScale: {x: 1, y: 4, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.11753737, w: 0.99306846}
+  m_LocalPosition: {x: 1.44, y: -6.57, z: 0}
+  m_LocalScale: {x: 1, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 7686734424273377862}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 19}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 13.5}
 --- !u!212 &7686734424379364931
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -578,9 +597,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7686734425131068709}
   - component: {fileID: 7686734425131068708}
-  - component: {fileID: 7686734425131068711}
   - component: {fileID: 7686734425131068710}
   - component: {fileID: 7686734425131068761}
+  - component: {fileID: 1736525145}
   m_Layer: 15
   m_Name: Balloon
   m_TagString: Untagged
@@ -596,8 +615,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7686734425131068760}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 6.507, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 5.74, z: 0}
+  m_LocalScale: {x: 0.75, y: 0.7, z: 1}
   m_Children:
   - {fileID: 7686734424045428342}
   m_Father: {fileID: 1905657967408969637}
@@ -653,22 +672,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &7686734425131068711
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7686734425131068760}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 41dd0b24b2254ab4aa036389543b1bd7, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.05061716}
-  serializedVersion: 2
-  m_Radius: 0.8426748
 --- !u!50 &7686734425131068710
 Rigidbody2D:
   serializedVersion: 4
@@ -689,7 +692,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 5
+  m_Constraints: 4
 --- !u!231 &7686734425131068761
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -704,12 +707,28 @@ SpringJoint2D:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0.015074253, y: -0.77531624}
-  m_ConnectedAnchor: {x: 0.01507473, y: 5.7316837}
+  m_Anchor: {x: 0.015073776, y: -0.77531624}
+  m_ConnectedAnchor: {x: 0.011304855, y: 5.1972785}
   m_AutoConfigureDistance: 1
   m_Distance: 0.005
   m_DampingRatio: 0
   m_Frequency: 1
+--- !u!70 &1736525145
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7686734425131068760}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000047683716}
+  m_Size: {x: 1.7, y: 1.9299998}
+  m_Direction: 0
 --- !u!1 &7686734425868322814
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,9 +739,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7686734425868322815}
   - component: {fileID: 7686734425868322811}
-  - component: {fileID: 7686734425868322810}
   - component: {fileID: 7686734425868322813}
   - component: {fileID: 7686734425868322812}
+  - component: {fileID: 1323600763}
   m_Layer: 15
   m_Name: Balloon2
   m_TagString: Untagged
@@ -738,8 +757,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7686734425868322814}
   m_LocalRotation: {x: 0, y: 0, z: -0.026176924, w: 0.99965733}
-  m_LocalPosition: {x: 1.73, y: 6.2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.23, y: 5.5529995, z: 0}
+  m_LocalScale: {x: 0.75, y: 0.7, z: 1}
   m_Children:
   - {fileID: 7686734424349488646}
   m_Father: {fileID: 1905657967408969637}
@@ -795,22 +814,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &7686734425868322810
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7686734425868322814}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 41dd0b24b2254ab4aa036389543b1bd7, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0048661255, y: 0.05562005}
-  serializedVersion: 2
-  m_Radius: 0.8630451
 --- !u!50 &7686734425868322813
 Rigidbody2D:
   serializedVersion: 4
@@ -847,8 +850,24 @@ SpringJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: 0.0000008319721, y: -0.96499974}
-  m_ConnectedAnchor: {x: 1.73, y: 6.2}
+  m_ConnectedAnchor: {x: 1.2653532, y: 6.227574}
   m_AutoConfigureDistance: 1
-  m_Distance: 0.96499985
+  m_Distance: 1.3510001
   m_DampingRatio: 0
   m_Frequency: 1.5
+--- !u!70 &1323600763
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7686734425868322814}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.42608267, y: 0.07505893}
+  m_Size: {x: 0.67075, y: 1.4784712}
+  m_Direction: 0
