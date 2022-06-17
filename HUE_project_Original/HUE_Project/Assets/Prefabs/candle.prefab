@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2522254279118158374}
   - component: {fileID: 2522254279118158373}
   m_Layer: 0
-  m_Name: foliagePack_021
+  m_Name: candle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: -66125011
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: 21300000, guid: eb61e08b514c42143822b12876e59f4d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2dba2e7ff758a36469cd9d584384c855, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

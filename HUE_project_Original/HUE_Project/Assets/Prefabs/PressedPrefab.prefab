@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3244642026992931243}
   - component: {fileID: 3244642026992931241}
   - component: {fileID: 3244642026992931242}
+  - component: {fileID: 3908113635530502469}
   m_Layer: 0
   m_Name: PressedPrefab
   m_TagString: Untagged
@@ -135,4 +136,29 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: fd3ec9acaf2d7b34fb2cd3bebe2aca3a, type: 2}
+    - {fileID: 11400000, guid: 46c059210501f3f4c8a05c319c7a5103, type: 2}
+--- !u!68 &3908113635530502469
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3244642026992931223}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -3.8687804, y: -1.2383151}
+  - {x: -1.7568204, y: -0.37646723}
+  - {x: -1.546602, y: -0.24192572}
+  - {x: -1.1995897, y: 0.29060364}
+  - {x: 1.1488833, y: 0.26143646}
+  - {x: 1.4932659, y: -0.14361715}
+  - {x: 1.5475478, y: -0.20348644}
+  - {x: 1.6795083, y: -0.30086613}
+  - {x: 3.7468905, y: -1.2888656}

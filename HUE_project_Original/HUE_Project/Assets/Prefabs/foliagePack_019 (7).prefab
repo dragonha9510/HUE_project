@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8586236284618301237}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5290798, y: -17.19272, z: 0}
-  m_LocalScale: {x: 1.3696189, y: 9.288501, z: 1}
+  m_LocalPosition: {x: -0.44, y: -31, z: 0}
+  m_LocalScale: {x: 1.3696189, y: 14.658275, z: 1}
   m_Children: []
   m_Father: {fileID: 8586236285477475833}
   m_RootOrder: 0
@@ -141,7 +141,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: dc990894a7f70d246928547b3db7c68d, type: 2}
+    - {fileID: 11400000, guid: d3d29710e0d5f4746aed46bd48c1ab5c, type: 2}
 --- !u!1 &8586236285477475832
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 8586236285477475836}
   m_Layer: 0
   m_Name: foliagePack_019 (7)
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -170,9 +170,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8586236285477475832}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -27.8988, y: 2.8238, z: 0}
-  m_LocalScale: {x: 0.79711545, y: 0.07370645, z: 1}
+  m_LocalScale: {x: 1.3807405, y: 0.09501111, z: 1}
   m_Children:
   - {fileID: 8586236284618301238}
   m_Father: {fileID: 0}
@@ -303,4 +303,4 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 6e0312e3b0d09104ca9c1f6b02c694b8, type: 2}
+    - {fileID: 11400000, guid: 6066708e9fc1bb14da35836244b42b93, type: 2}

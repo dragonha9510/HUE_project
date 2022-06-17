@@ -112,5 +112,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"bFade","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"fFade","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"strSceneName","value":{"$content":"","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"bFade","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"fFade","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"strSceneName","value":{"$content":"","$type":"System.String"},"$version":"A"},{"name":"bOnce","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
