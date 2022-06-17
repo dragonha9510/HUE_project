@@ -15,6 +15,7 @@ TagManager:
   - Item
   - BackGroundCamera
   - Ground
+  - SmokeEffect
   layers:
   - Default
   - TransparentFX

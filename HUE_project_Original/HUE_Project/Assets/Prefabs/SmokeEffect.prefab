@@ -113,7 +113,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: fb233aecc5dd7eb45ae71d1c411a8f57, type: 2}
+    - {fileID: 11400000, guid: 092f472a8c94465498494e3dff071336, type: 2}
 --- !u!212 &4937429453695400190
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -161,6 +161,6 @@ SpriteRenderer:
   m_Size: {x: 0.82, y: 0.75}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 2
   m_SpriteSortPoint: 0

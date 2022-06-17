@@ -229,6 +229,75 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &24494201
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4937429453695400065, guid: c947ff933118b1f4d95cd6e46b0e4489,
+        type: 3}
+      propertyPath: m_Name
+      value: SmokeEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937429453695400189, guid: c947ff933118b1f4d95cd6e46b0e4489,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937429453695400189, guid: c947ff933118b1f4d95cd6e46b0e4489,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937429453695400189, guid: c947ff933118b1f4d95cd6e46b0e4489,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937429453695400189, guid: c947ff933118b1f4d95cd6e46b0e4489,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937429453695400189, guid: c947ff933118b1f4d95cd6e46b0e4489,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937429453695400189, guid: c947ff933118b1f4d95cd6e46b0e4489,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937429453695400189, guid: c947ff933118b1f4d95cd6e46b0e4489,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937429453695400189, guid: c947ff933118b1f4d95cd6e46b0e4489,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937429453695400189, guid: c947ff933118b1f4d95cd6e46b0e4489,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937429453695400189, guid: c947ff933118b1f4d95cd6e46b0e4489,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937429453695400189, guid: c947ff933118b1f4d95cd6e46b0e4489,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c947ff933118b1f4d95cd6e46b0e4489, type: 3}
 --- !u!1001 &34729877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5067,11 +5136,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5535582790485493225, guid: 5001c9d5316d51542800ecbb4478666d,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"iMyColor","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"bLateInit","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5001c9d5316d51542800ecbb4478666d, type: 3}
@@ -11977,7 +12041,7 @@ PrefabInstance:
     - target: {fileID: 1226577666183642604, guid: d5489f903e4bcbe499f5cfb7423efbe8,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1262219639144054091, guid: d5489f903e4bcbe499f5cfb7423efbe8,
         type: 3}
